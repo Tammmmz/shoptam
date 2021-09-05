@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*Bootstrap*/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.can-slide {
+  margin-top: 32px;
+}
+.main {
+  margin: 50px;
+  text-align: center;
+}
+.main h1 {
+  text-align: center;
+  padding: 10px;
+}
+img {
+  width: 250px;
+  height: 250px;
+  padding: 20px 0;
+}
+.col-lg-3 {
+  box-shadow: 1px 0px 10px;
+  width: 24%;
+  margin: 5px;
+}
+.main h2 {
+  font-size: 20px;
+}
+.main .btn {
+  margin: 20px;
+}
+.carousel-inner .carousel-item img {
+  height: 700px;
+}
+.main nav {
+  padding: 50px 560px;
+}
+.main .sort .can {
+  display: inline-block;
+}
+.footer {
+  width: 100%;
+  height: 350px;
+  background-color: black;
+}
+.footer .logo {
+  text-align: center;
+}
+.footer .menu {
+  text-align: center;
+  color: white;
+}
+.footer .menu ul {
+  list-style: none;
+  padding-top: 50px;
+}
+.footer .menu ul li {
+  padding: 5px;
+}
+.footer .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer .menu ul li a:hover {
+  color: brown;
+  transition: 1s;
+}
+.footer .contact {
+  color: white;
+}
+.footer .contact ul {
+  padding-top: 50px;
+  list-style: none;
+}
+.footer .contact ul li {
+  padding: 5px;
+}
+.footer .contact ul li p {
+  display: inline-block;
+  padding-left: 5px;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+/*product*/
+.product {
+  margin-top: 150px;
+}
+.product {
+  margin: 150px;
+  text-align: center;
+}
+.product h1 {
+  text-align: center;
+  padding: 10px;
+}
+.product nav {
+  padding: 50px 560px;
+}
+.product .sort {
+  padding: 30px 0;
+}
+.product .sort .can {
+  display: inline-block;
+  padding-right: 10px;
+}
+.product .btn {
+  margin: 20px;
+}
+.product h2 {
+  font-size: 20px;
+}
+.product a {
+  text-decoration: none;
+  color: black;
+}
+.product a:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+
+/*product-detail*/
+.product-detail{
+  height: auto;
+  margin-top: 100px;
+}
+.product-detail h1{
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.5;
+  letter-spacing: 5px;
+}
+.product-detail .img{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-detail .img img{
+  width: 300px;
+  height: 300px;
+}
+.product-detail .content ul{
+  list-style: none;
+  padding-top: 70px;
+}
+.product-detail .content ul li{
+  padding: 0 15px;
+}
+.product-detail .content ul li p{
+  display: inline-block;
+  padding: 0 5px;
+}
+.product-detail .content ul li .button {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+}
+.product-detail .content ul li .red{
+  background-color: red;
+}
+.product-detail .content ul li .green{
+  background-color: green;
+}
+.product-detail .content ul li .blue{
+  background-color: blue;
+}
+
+.product-detail .content ul li .option button{
+  padding: 7px 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+.product-detail .content ul li .option button:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+
+/*Login*/
+.login{
+  margin: 50px 400px;
+  box-shadow: 1px 0px 4px;
+}
+.login h2{
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.5;
+  letter-spacing: 5px;
+}
+.login form{
+  padding: 30px 330px;
+}
+.login .button{
+  text-align: center;
+  padding-top: 15px;
+}
+.login .form-check a{
+  float: right;
+}
+.clear{
+  clear: b;
+}
+
+
+/*About*/
+.about{
+  margin: 100px 350px;
+  text-align: center;
+}
+.about h1{
+  text-transform: uppercase;
+  opacity: 0.5;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+}
+.main1{
+  border: 1 solid;
+  box-shadow: 1px 0px 10px;
+  padding: 20px;
+}
+
+.main2{
+  border: 1 solid;
+  box-shadow: 1px 0px 10px;
+  padding: 20px;
+  margin-top: 40px;
+}
+.main2 .img img{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 300px;
+}
+.main2 ul{
+  list-style: none;
+  padding-left: 0;
+}
+.main2 ul li{
+
+}
+.main2 button:hover{
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+/*Contact*/
+.contact-us{
+  margin: 100px 450px;
+}
+.contact-us h1{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  opacity: 0.5;
+  padding-bottom: 30px;
+}
+.contact-us .content{
+  border: 1 solid;
+  box-shadow: 1px 0px 10px;
+  padding: 30px;
+}
+.contact-us .content ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.contact-us .btn{
+  margin: 20px 0px 0px 400px ;
+  text-transform: uppercase;
+}

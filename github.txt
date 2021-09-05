@@ -1,0 +1,29 @@
+yêu cầu của github đối html
+1- đúng đường dẫn
+2-file html home(trang chủ) phải có tên là index.html
+
+Các bước đẩy file html lên github
+git init
+(là tạo file .git trong thư mục muốn push(đẩy))
+git add . 
+(là thêm tất cả các file có trong đó)
+git commit -m "chữ ký"
+(là thực thi chữ ký của file)
+git branch -M master(or main)
+(là chọn nhánh )
+git remote add origin # link #
+git push -u origin master(or main)
+(đẩy toàn bộ file lên github có link là (# link #))
+
+
+sau khi push công thì ta thao tác trên github
+chọn setting-->Github Pages
+chỉnh source thành master(or main)
+sau khi hoàn thành thì mình ấn save để lưu
+sau khi save thì sẽ hiện đường link thì ta ấn vào đấy để chạy 
+
+
+
+
+
+
